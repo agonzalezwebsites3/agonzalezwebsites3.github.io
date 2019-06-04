@@ -1,0 +1,212 @@
+/*FONTS WE CAN USE
+font-family: 'Raleway', sans-serif;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Abril Fatface', cursive;
+font-family: 'Cinzel', serif;
+font-family: 'Tinos', serif;
+font-family: 'VT323', monospace;
+font-family: 'Dancing Script', cursive;
+*/
+
+
+
+/* 
+========================================== 
+Base Settings
+========================================== 
+*/
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* 
+========================================== 
+END Base Settings
+========================================== 
+*/
+
+/* 
+========================================== 
+Top Bar
+========================================== 
+*/
+
+.topBar {
+    display: block;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 75px;
+    background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 77%, rgba(233,233,233,1) 100%);
+    border-bottom: 1px solid black;
+    z-index: 4;
+}
+
+.logoCircleContainer {
+    display: block;
+    margin: auto;
+    background: white;
+    height: 146px;
+    width: 200px;
+    border-bottom: 1px solid black;
+    border-radius: 0 0 50% 50%;
+    z-index: 4;
+}
+
+.logoImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 146px;
+    width: 146px;
+    border-radius: 50%;
+    z-index: 4;
+}
+
+
+/* 
+========================================== 
+Banner
+========================================== 
+*/
+.bannerImg {}
+
+.bannerContainer {
+    height: 100%;
+    width: 100%;
+    margin-top: 75px;
+    border-radius: 0 0 0 0;
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit background-size: cover;
+    moz background-size: cover;
+    background-position: center 30%;
+    background-attachment: fixed;
+    min-height: 904px;
+    border-bottom: 2px solid black;
+    z-index: auto;
+}
+
+.bannerContainer h1, h2, p{
+    position: relative;
+    color: aliceblue;
+    text-align: center;
+    top: 25vh;
+    z-index: 1;
+    margin-bottom: 20px;
+}
+
+.bannerContainer h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 65px;
+    top: 25vh;
+}
+
+.bannerContainer h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    top: 28vh;
+}
+
+.bannerContainer p {
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+    margin-top: 200px; 
+    top: 20vh;
+}
+/* 
+========================================== 
+END Banner
+========================================== 
+*/
+
+
+.aboutContainer {
+    display: block;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border-radius: 0 0 0 0;
+    background-image: url(../img/aboutBanner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit background-size: cover;
+    moz background-size: cover;
+    background-position: center 30%;
+    background-attachment: fixed;
+    min-height: 904px;
+    overflow: hidden;
+}
+
+#aboutContainerB {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 65vh;
+    top: 10vh;
+    background: rgb(87,87,87);
+background: radial-gradient(circle, rgba(87,87,87,0.2861519607843137) 49%, rgba(87,87,87,0.28335084033613445) 100%);
+    z-index: 0;
+    border-radius: 25% 25% 0 0;
+}
+
+.aboutContainer h1, h2, p {
+    position: relative;
+    color: aliceblue;
+    text-align: center;
+    top: 8vh;
+    z-index: 1;
+    margin-bottom: 20px;
+}
+
+
+#aboutH1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 65px;
+        color: hiteh;
+    margin-top: 5vh;
+}
+
+#aboutH2{
+    display: inline-table;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+        color: white;
+}
+
+#aboutP{
+        color: white;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
